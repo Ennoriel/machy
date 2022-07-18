@@ -6,7 +6,7 @@ long_description = open("README.md").read()
 setup(
     name='machy',
     packages=find_packages(include=['machy']),
-    version='1.0.0',
+    version='1.0.1',
     description='Web scraper utils',
     long_description=long_description,
     long_description_content_type="text/markdown",
