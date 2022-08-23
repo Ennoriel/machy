@@ -1,6 +1,7 @@
 from setuptools import find_packages, setup
 
 long_description = open("README.md").read()
+require = ['pandas', 'requests', 'lxml', 'numpy']
 
 
 setup(
@@ -13,7 +14,7 @@ setup(
     url='https://github.com/Ennoriel/machy',
     author='Maxime Dupont',
     license='MIT',
-    install_requires=[],
+    install_requires=require,
     setup_requires=['pytest-runner'],
     tests_require=['pytest'],
     test_suite='tests',
